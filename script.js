@@ -61,4 +61,5 @@ share.addEventListener("click", () => {
 const preSave = document.getElementById("preSaveBtn");
 preSave.addEventListener("click", () => {
   preSave.innerHTML = 'Pre-Saved <img src="images/check-button.png">';
+  window.location.href = 'https://open.spotify.com/artist/2s187JqHC9kipPLBLWXubl';
 });
