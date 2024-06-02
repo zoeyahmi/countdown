@@ -60,5 +60,7 @@ share.addEventListener("click", () => {
 //Redirecting to pre-save page
 const preSave = document.getElementById("preSaveBtn");
 preSave.addEventListener("click", () => {
- window.location.href = 'https://t.co/DGDW31QkLj';
+ if(window.location.href = 'https://t.co/DGDW31QkLj'){
+   preSave.innerHTML = 'Pre-saved <img src= "./images/check-button.png">'
+ };
 });
