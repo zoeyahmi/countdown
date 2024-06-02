@@ -61,5 +61,6 @@ share.addEventListener("click", () => {
 const preSave = document.getElementById("preSaveBtn");
 preSave.addEventListener("click", () => {
    preSave.innerHTML = 'Pre-saved <img src= "./images/check-button.png">'
+   window.location.href = 'https://t.co/DGDW31QkLj'
  ;
 });
